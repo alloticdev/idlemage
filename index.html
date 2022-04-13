@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Idle Mage</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="topbar">
+                <div><h1>Idle Mage</h1></div>
+                <div><p>[indev]</p></div>
+                <div class="topbarsep">
+                </div>
+            </div>
+                <div class="game">
+                    <div class=" sectionleft">
+                        <div class="bookanchor">
+                                <div class="book" id="book"></div>
+                        </div>
+                    </div>
+                    <div class="separator"></div> 
+                    <div class="sectionright">
+                        <div class="startmenu" id="startmenu">
+                            <div class="changelog">
+                                <h2 id="">Changelog v0.0.01</h2>
+                            </div>
+                            <button id="strt">Start Game</button>
+                        </div>
+                        <div id="leftmain" class="hidden">
+                            <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'summonsTab')">Summons</button>
+    <button class="tablinks" onclick="openTab(event, 'upgradesTab')">Upgrades</button>
+    <button class="tablinks" onclick="openTab(event, 'grimoiresTab')">Grimoires</button>
+    <button class="tablinks" onclick="openTab(event, 'achievementsTab')">Achievements</button>
+    <button class="tablinks" onclick="openTab(event, 'infoTab')">Info</button>
+  </div>
+  
+
+  <div id="summonsTab" class="tabcontent">
+  </div>
+
+  <div id="upgradesTab" class="tabcontent">
+    <h3>Upgrades</h3>
+    <p>upgrades</p>
+  </div>
+
+  <div id="grimoiresTab" class="tabcontent">
+    <h3>Grimoires</h3>
+    <p>Grimoires</p>
+  </div>
+  
+  <div id="achievementsTab" class="tabcontent">
+    <h3>Achievements:</h3>
+    <p>achievements</p>
+  </div>
+  
+
+  <div id="infoTab" class="tabcontent">
+    <p>Mana: <span id="spanmana"></span></p>
+    <p>Mana Per Second: <span id ="spanmanapersecond"></span></p>
+    <p>Mana Per Click: <span id="spanmanaperclick"></span></p>
+  </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="./main.js" type="text/javascript"></script>
+            </body>
+    </html>
