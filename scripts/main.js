@@ -2,8 +2,6 @@ var ver = 0001;
 
 // Sounds and visuals
 
-var book = document.getElementById("book");
-var strt = document.getElementById("strt")
 
 var booksound = new Audio("assets/book.mp3")
 booksound.volume = 0.5;
