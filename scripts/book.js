@@ -1,4 +1,5 @@
 // Game stuff
+
 var gameData = {
     mana: 0,
     manaPerClick: 1,
@@ -16,9 +17,7 @@ window.onload = function() {
     display.updateSummon();
 }
 
-var elements = {
-    book: document.getElementById("book")
-}
+
 
 elements.book.onmousedown = function() {
     if (elements.book.classList.contains("b") != true) {return}
